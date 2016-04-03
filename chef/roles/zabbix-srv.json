@@ -11,4 +11,4 @@
   "override_attributes": {
   }
 }
-##"recipe[zabbix::server]",
+
