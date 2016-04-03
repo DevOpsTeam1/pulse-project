@@ -7,8 +7,7 @@
   "description": "all-in-one application installation",
   "run_list": [
     "recipe[pulse]",
-    "recipe[zabbix-agent]",
-    "recipe[zabbix::api_import]"
+    "recipe[zabbix-agent]"
   ],
   "override_attributes": {
   }
