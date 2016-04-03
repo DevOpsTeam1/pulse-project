@@ -6,7 +6,8 @@
   },
   "description": "all-in-one zabbix server installation",
   "run_list": [
-    "recipe[zabbix::server]"
+    "recipe[zabbix::server]",
+    "recipe[zabbix::api_import]"
   ],
   "override_attributes": {
   }
